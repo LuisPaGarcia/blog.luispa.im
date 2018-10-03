@@ -1,0 +1,67 @@
+body {
+    max-width: 900px;
+    margin: 16vw auto;
+    padding: 0 8vw;
+    background: rgb(2, 1, 43);
+    color: rgb(208, 255, 166);
+
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 1.4em;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1 {
+    line-height: 1;
+  }
+
+  ul, ol {
+    padding-left: 2em;
+    list-style-position: inside;
+  }
+
+  li {
+    margin: 1em 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(208, 255, 166);
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+  }
+
+  code, pre {
+    font-family: inherit;
+    background: rgb(4, 2, 76);
+    color: rgb(199, 148, 255);
+  }
+
+  code {
+    padding: 0.2em 0.4em;
+  }
+
+  pre {
+    padding: 1em;
+    margin: 1em 0;
+    overflow: auto;
+  }
+
+  aside, blockquote {
+    background: rgb(4, 2, 76);
+    color: rgb(199, 148, 255);
+    border-left: 2px solid rgb(208, 255, 166);
+    margin: 1em 0;
+  }
+
+  aside {
+    padding: 0.25em 1.25em;
+  }
+
+  blockquote {
+    padding: 1em 2em;
+  }
+
+  q {
+    font-style: italic;
+  }
