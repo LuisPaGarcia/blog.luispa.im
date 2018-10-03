@@ -119,7 +119,7 @@ function generateSiteMap(pages) {
   )
 }
 
-exports.onPostBuild = ({ graphql }) => {//({pages, callback}) => {
+exports.onPostBuild = ({ graphql }) => {
 
   return graphql(`
   {
@@ -144,21 +144,15 @@ exports.onPostBuild = ({ graphql }) => {//({pages, callback}) => {
         return Promise.reject(result.errors)
       }
 
-      //post prefix https://blog.luispa.im
       let post = result.data.allMarkdownRemark.edges.map(e => e.node.fields.slug)
       let tags = result.data.allMarkdownRemark.edges.map(e => e.node.frontmatter.tags)
       var merged = [].concat.apply([], tags);
       var he = merged
         .filter(e => e !== null)
         .map(e => `/`.concat(e.split(' ').join('-').split('.').join('-')))
-      //tags prefix https://blog.luispa.im/tags/
 
       console.log({ he, post })
       generateSiteMap([].concat(he, post))
-      // console.log({ post, tags }, null, 4)
-      // console.log(JSON.stringify(result.data.allMarkdownRemark.edges, null, 4))
     })
-  // generateSiteMap(pages)
-  // callback()
 }
 
