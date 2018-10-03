@@ -1,6 +1,6 @@
 body {
     max-width: 900px;
-    margin: 16vw auto;
+    margin: 6vw auto;
     padding: 0 8vw;
     background: rgb(2, 1, 43);
     color: rgb(208, 255, 166);
@@ -64,4 +64,5 @@ body {
 
   q {
     font-style: italic;
+    text-align: justify;
   }

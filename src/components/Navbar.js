@@ -7,14 +7,14 @@ const style = {
   color: "rgb(2, 1, 43)",
   textAlign: "right",
   margin: "auto",
-  padding: "5px"
+  padding: "15px"
 }
 
-const Navbar = () => {
+const Navbar = (props ) => {
   return (
     <nav>
       <Link to="/">
-        <h1 style={style}>Blog.luispa</h1>
+        <h1 style={style}> <strong> {props.text} </strong></h1>
       </Link>
     </nav>
   )
