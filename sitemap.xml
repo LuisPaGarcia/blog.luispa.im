@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.luispa.im/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/blog/2018-10-03-create-react-app-2-0/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/blog/2018-10-02-aprendiendo-a-aprender/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/react/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/create-react-app-2/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/cra-2/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/react-js/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/aprendiendo/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/aprender/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/aprender-en-software/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.luispa.im/tags/</loc>
+  <lastmod>2018-10-03T15:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
