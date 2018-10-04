@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Aprendiendo a aprender \U0001F9E0"
+title: Aprendiendo a aprender
 date: 2018-10-02T14:40:35.246Z
 description: "\U0001F9E0"
 tags:
