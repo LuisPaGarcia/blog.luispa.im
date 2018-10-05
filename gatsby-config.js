@@ -4,6 +4,12 @@ module.exports = {
     siteUrl: `https://blog.luispa.im`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
