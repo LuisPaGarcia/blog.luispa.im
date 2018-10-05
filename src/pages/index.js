@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import PageTransition from 'gatsby-plugin-page-transitions';
+// import PageTransition from 'gatsby-plugin-page-transitions';
 import "../style.css";
 
 export default class IndexPage extends React.Component {
@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <PageTransition>
+      // <PageTransition>
         <Layout>
           <section >
             <div >
@@ -51,7 +51,7 @@ export default class IndexPage extends React.Component {
             </div>
           </section>
         </Layout>
-      </PageTransition >
+      // </PageTransition >
     )
   }
 }
