@@ -1,14 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import "../style.css";
-import PageTransition from 'gatsby-plugin-page-transitions';
+// import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Navbar from '../components/Navbar'
 import './all.sass'
 
 const TemplateWrapper = (props) => {
   return (
-    <PageTransition>
+    // <PageTransition>
       <div>
         <Helmet title="blog 🧠" />
         <br />
@@ -18,7 +18,7 @@ const TemplateWrapper = (props) => {
         <br />
         <br />
       </div>
-    </PageTransition>
+    // </PageTransition>
 
   )
 }
