@@ -22,13 +22,13 @@ La lista de Controles proactivos comienza definiendo los requisitos de seguridad
 
 ## Lista de los 10 controles proactivos principales ordenados del 1 al 10 en función de la importancia.
 
-**C1: **Definir requisitos de seguridad
+**C1:** Definir requisitos de seguridad
 
 **C2:** Aprovechar marcos de seguridad y bibliotecas
 
-**C3: **Asegurar acceso a la base de datos
+**C3:** Asegurar acceso a la base de datos
 
-**C4: **Codificar y escapar datos
+**C4:** Codificar y escapar datos
 
 **C5:** Validar todas las entradas
 
@@ -36,11 +36,11 @@ La lista de Controles proactivos comienza definiendo los requisitos de seguridad
 
 **C7:** Aplicar controles de acceso
 
-**C8: **Proteger datos en todas partes
+**C8:** Proteger datos en todas partes
 
 **C9:** Implementar registro de seguridad y monitoreo
 
-**C10: **Maneja todos los errores y excepciones
+**C10:** Maneja todos los errores y excepciones
 
 > Definir los requisitos de seguridad
 
