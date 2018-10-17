@@ -8,15 +8,15 @@ tags:
   - owasp
   - '2018'
 ---
+
+
+![security header](/img/photo-1508896080210-93c377eb4135.jpeg)
+
 > OWASP lanzó los 10 mejores controles proactivos para desarrolladores de software que describen las áreas más críticas en las que los desarrolladores de software deben enfocarse
 
 El Top 10 Proactive Controls 2018 de OWASP contiene una lista de técnicas de seguridad que cada desarrollador debe considerar para cada desarrollo de proyecto de software.
 
-
-
 "Los 10 mejores controles proactivos de OWASP son similares a los 10 principales de OWASP pero se centraron en técnicas y controles defensivos en lugar de riesgos", dice el documento OWASP.
-
-
 
 La lista de Controles proactivos comienza definiendo los requisitos de seguridad derivados de los estándares de la industria, las leyes aplicables y un historial de vulnerabilidades pasadas.
 
@@ -69,19 +69,13 @@ Codificar y escapar juega un papel vital en las técnicas defensivas contra los 
 
 Los diferentes tipos de codificación incluyen Codificación de Entidad HTML, Codificación de Atributo HTML, Codificación de JavaScript y Codificación de URL.
 
-
-
 > Validar todas las entradas
 
 Solo los datos con el formato correcto deben permitirse al ingresar al sistema de software. La aplicación debe verificar que los datos sean sintáctica y semánticamente.
 
-
-
 > Implementar identidad digital
 
 La identidad digital es la forma de representar la transacción en línea, a continuación se muestran las recomendaciones de OWASP para una implementación segura: Niveles de autenticación, Gestión de sesiones, Tokens
-
-
 
 > Hacer cumplir los controles de acceso
 
@@ -109,8 +103,4 @@ La clasificación de datos basada en la sensibilidad es importante.
 
 Registrando la información de seguridad durante la operación en tiempo de ejecución de una aplicación. El monitoreo es la revisión en vivo de los registros de aplicaciones y seguridad que utilizan varias formas de automatización.
 
->
->
 > [Fuente: OWASP_Proactive_Controls](https://www.owasp.org/index.php/OWASP_Proactive_Controls)
->
->
