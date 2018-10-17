@@ -2,15 +2,17 @@
 templateKey: blog-post
 title: 'Rendimiento en React: shouldComponentUpdate '
 date: 2018-10-15T23:16:00.596Z
-description: >-
-  Una breve descripción con un caso de uso de como mejorar el rendimiento de una
-  aplicación hecha con React utilizando shouldComponentUpdate
+description: ' '
 tags:
   - react
   - shouldComponentUpdate
   - rendimiento react
   - performance react
 ---
+![performance header](/img/photo-1524177100258-782087dc2a31.jpeg)
+
+> Una breve descripción con un caso de uso de como mejorar el rendimiento de una aplicación hecha con React utilizando shouldComponentUpdate
+
 Cuando desarrollas en React, ¿Alguna vez se ha preguntado cuándo y por qué se ejecuta el método `render()` de un componente? O te has preguntado, ¿Cuándo usar métodos de ciclo de vida de un componente menos conocidos como `shouldComponentUpdate()`?
 
 Si la respuesta es sí, tu aplicación podría tener problemas de rendimiento. En este post vamos a hacer un caso de uso simple para aprender a mejorar este aspecto de nuestra aplicación.
