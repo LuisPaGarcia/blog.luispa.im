@@ -13,11 +13,11 @@ tags:
  ✅ & ☑️ 
 ```
 
-# **unbreakable.studio **
+# **unbreakable.studio**
 
 ## **Enero**
 
-**03 - **Primer mockup para unbreakable.studio Github. ✅ 
+**03** Primer mockup para unbreakable.studio Github. ✅ 
 
 CI&CD con Netlify. ☑️ 
 
@@ -35,7 +35,7 @@ Crear showcase ☑️
 
 ## **Enero**
 
-**04/01 - **Primer mockup para damn.academy en Github
+**04/01** Primer mockup para damn.academy en Github
 
 CI&CD con Netlify. ☑️ 
 
