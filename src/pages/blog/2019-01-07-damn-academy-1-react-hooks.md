@@ -10,6 +10,8 @@ tags:
   - damn academy
   - react guatemala
 ---
+![react hooks logo](/img/react-hooks.png)
+
 Esta es un ejemplo de como empezar a utilizar React Hooks, una de las nuevas características que React ha agregado a su catálogo de API. 
 
 ## **TL;DR**
@@ -38,7 +40,6 @@ Ya que verificamos la versión de npm podemos utilizar npx.
 
 Este script creará un proyecto utilizando `create-react-app` sin instalarlo globalmente
 
-
 ```bash
 $ npx create-react-app .
 ```
@@ -48,6 +49,7 @@ $ npx create-react-app .
 Una vez instalado, vamos a utilizar `yarn` para actualizar los 2 paquetes necesarios, `react` y `react-router`. Para esto, vamos correr este script en la consola:
 
 Si usas Yarn
+
 ```bash
 $ yarn add react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
 ```
@@ -57,7 +59,6 @@ Si usas npm
 ```bash
 $ npm i react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
 ```
-
 
 Una vez terminada la instalación, ya podemos empezar a crear nuestros componentes utilizando react hooks!
 
@@ -121,11 +122,13 @@ export default Example;
 Ahora vamos a probar nuestro código. Corre el siguiente comando en tu consola:
 
 Si usas yarn
+
 ```bash
 $ yarn start
 ```
 
 Si usas npm
+
 ```bash
 $ npm run start
 ```
@@ -133,10 +136,8 @@ $ npm run start
 Listo, ahora puedes empezar a utilizar React Hooks!
 
 **Repositorio de Github**
-[https://github.com/LuisPaGarcia/damn-hooks](https://github.com/LuisPaGarcia/damn-hooks)
-
+<https://github.com/LuisPaGarcia/damn-hooks>
 
 **Documentación detallada de Facebook:**
 
-[https://reactjs.org/docs/hooks-overview.html](https://reactjs.org/docs/hooks-overview.html)
-
+<https://reactjs.org/docs/hooks-overview.html>
