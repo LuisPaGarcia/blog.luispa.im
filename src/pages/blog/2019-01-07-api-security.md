@@ -27,6 +27,8 @@ El documento "La protección de la información en sistemas informáticos" de Je
 7. **Mecanismo menos común:** se refiere al riesgo de compartir el estado entre diferentes componentes. Si uno puede corromper el estado compartido, entonces puede corromper todos los demás componentes que dependen de él.
 8. **Aceptación psicológica:** establece que los mecanismos de seguridad no deben hacer que el recurso sea más difícil de acceder que si los mecanismos de seguridad no estuvieran presentes. En resumen, `la seguridad no debería empeorar la experiencia del usuario.`
 
+[Parte 2](https://blog.luispa.im/blog/)
+
 ### Fuentes:
 
 [http://web.mit.edu/Saltzer/www/publications/protection/](http://web.mit.edu/Saltzer/www/publications/protection/)
