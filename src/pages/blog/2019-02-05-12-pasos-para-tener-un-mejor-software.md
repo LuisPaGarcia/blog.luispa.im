@@ -9,4 +9,4 @@ tags:
   - '3'
   - '4'
 ---
- 
+ https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
