@@ -5,7 +5,7 @@ date: 2019-01-07T16:45:38.840Z
 description: '    '
 tags:
   - react hooks
-  - react alpha
+  - hooks
   - learn react hooks
   - damn academy
   - react guatemala
@@ -16,14 +16,13 @@ Esta es un ejemplo de como empezar a utilizar React Hooks, una de las nuevas car
 
 ## **TL;DR**
 
-* `React Hooks` es una forma de escribir componentes que utilicen `state` sin necesidad de utilizar clases de Javascript. En lugar se utilizan `Functional components`.
-* Puede utilizarse desde la versión 16.7.0-alpha.2 hasta (enero de 2019).
-* Aún no es recomendable utilizarlo en producción.
+* `React Hooks` es una forma de escribir componentes que utilicen `state` sin necesidad de utilizar clases de JavaScript. En lugar se utilizan `Functional components`.
+* Puede utilizarse en producción sin problemas sobre la versión 16.8 o superior, lanzada el 6 de febrero de 2019.
 
 ## **Como empezar**
 
 1. Creamos un nuevo proyecto utilizando `create-react-app`
-2. Instalamos la versión `16.7.0-alpha.2` de `react` y `react-dom` en nuestro proyecto.
+2. Instalamos la versión `16.8.0` de `react` y `react-dom` en nuestro proyecto.
 3. Listo! Estamos listos para utilizar react hooks.
 
 ## Paso 1.
@@ -51,13 +50,13 @@ Una vez instalado, vamos a utilizar `yarn` para actualizar los 2 paquetes necesa
 Si usas Yarn
 
 ```bash
-$ yarn add react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
+$ yarn add react@^16.8.0 react-dom@^16.8.0
 ```
 
 Si usas npm
 
 ```bash
-$ npm i react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
+$ npm i react@^16.8.0 react-dom@^16.8.0
 ```
 
 Una vez terminada la instalación, ya podemos empezar a crear nuestros componentes utilizando react hooks!
