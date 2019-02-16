@@ -127,7 +127,10 @@ img {
 
 .post-title-class {
 	text-decoration: none;
-	font-weight: bolder;
+	font-weight: 900;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .time-class {
@@ -145,6 +148,7 @@ img {
 	border: 1px solid #eaecee;
 	padding: 1em 1em;
 	margin-bottom: 10px;
+	background-color: #03024b;
 }
 
 .topMenu {
@@ -160,5 +164,6 @@ img {
 }
 
 .active {
-	background-color: darkblue;
+	background-color: #03024b;
+	font-weight: 900
 }
