@@ -1,15 +1,23 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Helmet from 'react-helmet';
+import '../style.css';
+import PageTransition from 'gatsby-v2-plugin-page-transitions';
 
-import Navbar from '../components/Navbar'
-import './all.sass'
+import Navbar from '../components/Navbar';
+import './all.sass';
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet title="blog 🧠" />
-    <Navbar />
-    <div>{children}</div>
-  </div>
-)
+const TemplateWrapper = (props) => {
+	return (
+		<div>
+			<Helmet title="Luispa.im" />
+			<Navbar text="luispa.im" />
+			<PageTransition>
+				<div>{props.children}</div>
+				<br />
+				<br />
+			</PageTransition>
+		</div>
+	);
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
