@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import '../style.css';
-import { Context } from './context';
+import { Context } from '../context';
 export default class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -58,7 +58,7 @@ class IndexPage extends React.Component {
 							</div>
 							{!(visible === 'about') ? null : (
 								<section>
-									<h1>HOLA</h1>
+									<h1 className="pt-8">HOLA</h1>
 								</section>
 							)}
 							{!(visible === 'blog') ? null : (

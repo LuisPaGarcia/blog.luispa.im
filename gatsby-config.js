@@ -55,5 +55,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    `gatsby-plugin-postcss`,
+    {
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        tailwind: true,
+        purgeOnly: ['src/css/style.css'],
+      },
+    },
+
   ],
 }

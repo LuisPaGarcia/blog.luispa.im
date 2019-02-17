@@ -12,6 +12,8 @@
     "gatsby-plugin-netlify-cms": "^3.0.0",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-page-transitions": "^1.0.7",
+    "gatsby-plugin-postcss": "^2.0.5",
+    "gatsby-plugin-purgecss": "^3.1.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.5",
@@ -42,7 +44,7 @@
     "s": "npm run develop",
     "start": "npm run develop",
     "clean": "rimraf .cache public",
-    "build": "npm run clean && gatsby build",
+    "build": "gatsby build",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
@@ -50,6 +52,7 @@
   },
   "devDependencies": {
     "prettier": "^1.7.4",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "tailwindcss": "^0.7.4"
   }
 }
