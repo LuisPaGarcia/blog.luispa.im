@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Los genéricos no están listos para Go
+title: Los generics no están listos para Go
 date: 2019-08-02T12:49:07.893Z
 description: >-
   Las limitaciones impuestas por la falta de generics (y otras cosas que Go
