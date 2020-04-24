@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: Safetly obtain deep props in Javascript
+title: Safetly obtain deep props in JavaScript
 date: 2020-04-24T15:54:19.423Z
 description: >-
   In this post, we will create a function to access the properties in objects in
-  our Javascript code in safety way.
+  our JavaScript code in safety way.
 tags:
   - javascript
   - props access
