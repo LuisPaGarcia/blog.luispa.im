@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return (
     <nav>
       <Link to="/">
-        <h1 style={style}>
+        <h1>
           {" "}
           <strong> {props.text} </strong>
         </h1>
