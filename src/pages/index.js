@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
         {({ visible, up, posts }) => {
           return (
             <Layout>
-              <section>
+              <section className="md:container md:mx-auto">
                 <div>
                   <div>
                     <br />
